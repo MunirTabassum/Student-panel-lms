@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:sidebarx/sidebarx.dart';
-import 'package:studentpanel/constants/helpers.dart';
-import 'package:studentpanel/dashboard/coursemodel/model.dart';
+import 'package:studentpanel/student%20panel/constants/helpers.dart';
+import 'package:studentpanel/student%20panel/coursespecification.dart/screens/coursespecification.dart';
+import 'package:studentpanel/student%20panel/dashboard/coursemodel/model.dart';
 
-import '../../coursespecification.dart/screens/coursespecification.dart';
 import '../widgets/homelistTile.dart';
 import '../widgets/sidebarwidget.dart';
 class Dashboard extends StatefulWidget {

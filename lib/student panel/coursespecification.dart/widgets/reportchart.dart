@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:studentpanel/coursespecification.dart/widgets/piechart_report.dart';
+import 'package:studentpanel/student%20panel/coursespecification.dart/widgets/piechart_report.dart';
 
 class ReportChart extends StatelessWidget {
   const ReportChart({

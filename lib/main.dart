@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 
-import 'package:studentpanel/constants/helpers.dart';
-import 'package:studentpanel/dashboard/screens/dashboard.dart';
-import 'coursespecification.dart/screens/coursespecification.dart';
+import 'package:studentpanel/student%20panel/constants/helpers.dart';
+import 'package:studentpanel/student%20panel/dashboard/screens/dashboard.dart';
+
+import 'hod panel/dashbaord/screens/hoddashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
           )
         )
       ),
-      home: const Dashboard(),
+      home: const HodDashboard(),
     );
   }
 }

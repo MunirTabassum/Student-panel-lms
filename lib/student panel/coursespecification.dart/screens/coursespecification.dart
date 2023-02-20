@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:sidebarx/sidebarx.dart';
-import 'package:studentpanel/dashboard/coursemodel/model.dart';
+import 'package:studentpanel/student%20panel/dashboard/coursemodel/model.dart';
 
 import '../../dashboard/widgets/homelistTile.dart';
 import '../widgets/reportchart.dart';
@@ -46,15 +46,6 @@ class _CourseSpecificationState extends State<CourseSpecification> {
             fontFamily: 'Poppins',)
           ),
           ]),),
-        //   leading: IconButton(
-        //   onPressed: (){
-        //     _key.currentState?.openDrawer();
-        //   },
-        //   icon: const Icon(
-        //     Icons.menu,
-        //     color: Colors.white,
-        //     size: 22,),
-        // ),
         actions:  [
            const Padding(
              padding:  EdgeInsets.only(right:10.0),
